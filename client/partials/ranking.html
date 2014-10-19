@@ -1,0 +1,15 @@
+<template name="ranking">
+	<h2>World Ranking</h2>
+	<div class="pure-g">
+		{{#each scoreList}}
+			<div class="pure-u-18-24">
+				<p>{{name}}</p>
+			</div>
+			<div class="pure-u-6-24">
+				<p class="right">
+					<strong> {{score}}</strong>
+				</p>
+			</div>
+		{{/each}}
+	</div>
+</template>

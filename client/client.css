@@ -1,0 +1,97 @@
+* {
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+
+body {
+	color: #242424;
+	font-size: 20px;
+	min-width: 1100px;
+}
+
+h2.score {
+	padding-bottom: .83em;
+}
+
+header {
+	background: #B9D7D9;
+	border-bottom: 3px solid #81A8B8;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, .2);
+}
+
+header * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header h1 {
+	font-size: 2.25em;
+	margin: 0;
+}
+
+header img {
+	margin-right: 1em;
+}
+
+.lastResult {
+	display: none;
+	margin: 2em 0 0;
+}
+
+.lastResult .label {
+	display: none;
+}
+
+.lastResult .label.deuce {
+	color: #f39c12;
+}
+
+.lastResult .label.lose {
+	color: #e74c3c;
+}
+
+.lastResult .label.win {
+	color: #2ecc71;
+}
+
+.option {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+
+.option:hover {
+	cursor: pointer;
+}
+
+.option:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.option img {
+	max-height: 225px;
+	-moz-transition: .25s all ease;
+	-webkit-transition: .25s all ease;
+	transition: .25s all ease;
+	max-width: 100%;
+}
+
+.right {
+	text-align: right;
+}
+
+.wrapper {
+	margin: 1em;
+	padding: 1em;
+}
