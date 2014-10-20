@@ -1,5 +1,12 @@
 <template name="score">
-	{{#with currentScore}}
-		<h2 class="score">Your score: {{score}}</h2>
-	{{/with}}
+	{{#if currentScore}}
+		<div class="box score">
+			<h2>Your score</h2>
+			<div class="box-content">
+				{{#with currentScore}}
+					<h3>{{score}}</h3>
+				{{/with}}
+			</div>
+		</div>
+	{{/if}}
 </template>

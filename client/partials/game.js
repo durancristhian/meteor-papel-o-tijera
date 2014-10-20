@@ -73,9 +73,8 @@ Template.game.events({
 
 function showLabel (result) {
 
-	$(".lastResult").show();
 	$(".label").hide();
-	$(".label." + result).css("display", "inline-block");
+	$(".label." + result).show();
 }
 
 function updateScore (result) {
