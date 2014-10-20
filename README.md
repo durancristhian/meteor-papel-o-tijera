@@ -3,6 +3,10 @@ meteor-papel-o-tijera
 
 > Nueva demo con meteor: el juego piedra, papel o tijera
 
+Demo
+----------
+![meteor-papel-o-tijera.meteor.com](meteor-papel-o-tijera.meteor.com)
+
 Desarrollo
 ----------
 > meteor run --port 3005
