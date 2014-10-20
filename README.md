@@ -5,7 +5,7 @@ meteor-papel-o-tijera
 
 Demo
 ----------
-![meteor-papel-o-tijera.meteor.com](meteor-papel-o-tijera.meteor.com)
+[meteor-papel-o-tijera.meteor.com](meteor-papel-o-tijera.meteor.com)
 
 Desarrollo
 ----------
