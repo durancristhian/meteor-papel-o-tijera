@@ -9,7 +9,10 @@ Template.login.events({
 
 		Meteor.loginWithPassword(email, password, function (err) {
 
-			if (err) { alert(err.reason); }
+			if (err) { 
+
+				alertify.error(err.reason);
+			}
 			else { Session.set("showGame", "true"); }
 		});
 

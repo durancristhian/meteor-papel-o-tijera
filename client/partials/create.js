@@ -11,7 +11,10 @@ Template.create.events({
 			{ email: email, password: password },
 			function (err) {
 
-				if (err) { alert(err.reason); }
+				if (err) {
+
+					alertify.error(err.reason);
+				}
 				else { Session.set("showGame", "true"); }
 			}
 		);

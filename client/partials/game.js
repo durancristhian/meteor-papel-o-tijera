@@ -91,7 +91,7 @@ function updateScore (result) {
 				{ $set: 
 					{ 
 						name: Meteor.user().emails[0].address,
-						score: currentScore.score - 10
+						score: currentScore.score - 1
 					}
 				}
 			);
@@ -101,7 +101,7 @@ function updateScore (result) {
 			Scores.upsert(
 				{ _id: Meteor.userId() },
 				{ 
-					$inc: { score: 50 },
+					$inc: { score: 5 },
 					$set: { name: Meteor.user().emails[0].address }
 				}
 			);
