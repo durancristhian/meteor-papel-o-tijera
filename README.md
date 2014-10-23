@@ -5,13 +5,13 @@ meteor-papel-o-tijera
 
 Demo
 ----------
-[meteor-papel-o-tijera.meteor.com](http://meteor-papel-o-tijera.meteor.com/)
+[meteor-papel-o-tijera](http://meteor-papel-o-tijera.meteor.com/)
 
 Desarrollo
 ----------
 > meteor run --port 3005
 
-Screenshot
+Screenshots
 ----------
 ![meteor-papel-o-tijera](https://raw.githubusercontent.com/durancristhian/meteor-papel-o-tijera/master/screenshots/website-1.png)
 ![meteor-papel-o-tijera](https://raw.githubusercontent.com/durancristhian/meteor-papel-o-tijera/master/screenshots/website-2.png)
